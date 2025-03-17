@@ -2,7 +2,6 @@ In this application profile dev enables using H2 database (data stored in memory
 Connection details are configured in private repository in file car-ms-dev.properties, imported from Spring Cloud Config Server.
 
 File car-ms-dev.properties:
-
 spring.datasource.url=jdbc:h2:mem:devdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=admin
